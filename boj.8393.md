@@ -1,0 +1,30 @@
+# 문제 제목: n이 주어졌을 때, 1부터 n까지 합을 구하는 프로그램을 작성하시오.
+
+## 문제 정보
+- **출처:** noj.am/8393
+- **난이도:** Easy, Medium, Hard 중 하나.
+
+## 문제 설명
+
+
+## 해결 과정
+
+### 접근 방법
+while문으로 방식, 가우스 공식
+## 코드
+```python
+n = int(input())
+sum = 0
+i = 1
+
+while i <= n :
+    sum = sum + i
+    i = i + 1
+
+print(sum)
+
+```python
+n = int(input())
+sum = (n + 1) * n //2
+
+print(sum)
